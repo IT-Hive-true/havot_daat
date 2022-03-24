@@ -1,0 +1,42 @@
+version: "3.3"
+services:
+
+  db:
+    image: mysql:latest
+    restart: always
+    container_name: havotdaat-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: havotdaa_dbclinic
+      MYSQL_USER: "havotdaa_havot"
+      MYSQL_PASSWORD: "clinica8565"
+    ports:
+      - "3307:3306"
+    expose:
+      - 3307
+    volumes:
+      - ./sourcefiles/mysql/havotdaa_dbclinic:/var/lib/mysql
+      - ./sourcefiles/mysql/dump:/docker-entrypoint-initdb.d
+
+  webserver:
+    image: nginx:alpine
+    container_name: havotdaat-webserver
+    working_dir: /application
+    volumes:
+        - ./application:/application
+        - ./sourcefiles/nginx:/etc/nginx/conf.d
+        - ./sourcefiles/tmp/nginx:/var/log/nginx/
+    ports:
+      - "8077:80"
+
+
+  php-fpm:
+    container_name: havotdaat-php-fpm
+    working_dir: /application
+    volumes:
+      - ./sourcefiles/php-fpm/php-ini-overrides.ini:/etc/php/8.0/fpm/php.ini
+      - ./application:/application
+    build: ./sourcefiles/php-fpm
+
+
+
