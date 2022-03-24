@@ -1,0 +1,1 @@
+#!/bin/bashcd /aplicationif [ "$(ls -A "/aplication")" ]; then   echo "Git update";   git pull;else  echo "Git clone start";  git clone https://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@github.com/IT-Hive-true/avoda-backend.git . ;fi
