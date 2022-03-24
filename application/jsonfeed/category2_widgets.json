@@ -1,0 +1,53 @@
+{
+  "data" : [
+    {
+      "id" : "w201",
+      "title" : "תיקים בסטטוס התקבל מינוי",
+      "description" : "רשימת תיקים בסטטוס התקבל מינוי",
+      "url" : "caseQuery.php?type=1&status=1",
+      "image": "images/widgets/widget2.png"
+    },
+	{
+      "id" : "w202",
+      "title" : "תיקים בסטטוס מוכן לבדיקה",
+      "description" : "רשימת תיקים בסטטוס מוכן לבדיקה",
+      "url" : "caseQuery.php?type=1&status=2",
+      "image": "images/widgets/widget2.png"
+    },
+	{
+      "id" : "w203",
+      "title" : "תיקים בסטטוס נבדק",
+      "description" : "רשימת תיקים בסטטוס נבדק",
+      "url" : "caseQuery.php?type=1&status=3",
+      "image": "images/widgets/widget2.png"
+    },
+	{
+      "id" : "w204",
+      "title" : "תיקים בסטטוס מחכה לחומר נוסף",
+      "description" : "רשימת מחכה לחומר נוסף",
+      "url" : "caseQuery.php?type=1&status=4",
+      "image": "images/widgets/widget2.png"
+    },
+	{
+      "id" : "w205",
+      "title" : "תיקים בסטטוס אא",
+      "description" : "רשימת אא",
+      "url" : "caseQuery.php?type=1&status=5",
+      "image": "images/widgets/widget2.png"
+    },
+	{
+      "id" : "w206",
+      "title" : "תיקים בסטטוס אא",
+      "description" : "רשימת אא",
+      "url" : "caseQuery.php?type=1&status=6",
+      "image": "images/widgets/widget2.png"
+    },
+	{
+      "id" : "w207",
+      "title" : "תיקים בסטטוס אא",
+      "description" : "רשימת אא",
+      "url" : "caseQuery.php?type=1&status=7",
+      "image": "images/widgets/widget2.png"
+    }
+  ]
+}

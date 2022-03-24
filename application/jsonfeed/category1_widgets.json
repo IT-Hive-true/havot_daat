@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "id" : "w04",
+      "title" : "לו\"ז מרפאה",
+      "description" : "shows today's appointments",
+      "creator" : "Omer Yarnitsky",
+      "url" : "calendarWidget.php",
+      "image": "widgets/widget2.png"
+    }
+  ]
+}

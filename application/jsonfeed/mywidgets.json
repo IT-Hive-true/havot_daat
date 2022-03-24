@@ -1,0 +1,75 @@
+{
+"layout": "layout2",
+"data" : [
+  	
+	{
+		"title" : "תיקים בסטטוס מחכה לחומר נוסף מעל 3 חודשים",
+		"id" : "widget1-1",
+		"column" : "first",
+		"url" : "caseQuery.php?type=2&status=4&days=90",
+		"editurl" : "widgets/editwidget2.html",
+		"open" : true
+  	},
+	{
+		"title" : "תיקים בסטטוס מחכה לתשלום מעל 2 חודשים",
+		"id" : "widget1-2",
+		"column" : "first",
+		"url" : "caseQuery.php?type=2&status=6&days=60",
+		"editurl" : "widgets/editwidget2.html",
+		"open" : true
+  	},
+	{
+		"title" : "תיקים בסטטוס התקבל מינוי מעל 4 חודשים",
+		"id" : "widget1-3",
+		"column" : "first",
+		"url" : "caseQuery.php?type=2&status=1&days=120",
+		"editurl" : "widgets/editwidget2.html",
+		"open" : true
+  	},
+	{
+		"title" : "תיקים בסטטוס מוכן לבדיקה מעל 4 חודשים",
+		"id" : "widget1-4",
+		"column" : "first",
+		"url" : "caseQuery.php?type=2&status=2&days=120",
+		"editurl" : "widgets/editwidget2.html",
+		"open" : true
+  	},
+	{
+		"title" : "תיקים בסטטוס מושהה מעל 10 חודשים",
+		"id" : "widget1-5",
+		"column" : "first",
+		"url" : "caseQuery.php?type=2&status=11&days=300",
+		"editurl" : "widgets/editwidget2.html",
+		"open" : true
+  	},
+	{
+      "title" : "תיקים בסטטוס נבדק",
+	  "id" : "widget2-1",
+      "column" : "second",
+      "url" : "caseQuery.php?type=1&status=3",
+      "open" : true
+	},
+	{
+      "title" : "התראות",
+	  "id" : "alert_widget",
+      "column" : "second",
+      "url" : "showAlerts.php",
+      "open" : true
+	},
+  	
+	{
+      "title" : "תיקים בסטטוס מוכן להפצה",
+	  "id" : "widget2-2",
+      "column" : "second",
+      "url" : "caseQuery.php?type=1&status=7",
+      "open" : true
+	},
+	{
+      "title" : "תיקים בסטטוס מוכן להפצת הבהרות",
+	  "id" : "widget2-3",
+      "column" : "second",
+      "url" : "caseQuery.php?type=1&status=10",
+      "open" : true
+	}
+	]
+}

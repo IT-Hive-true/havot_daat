@@ -1,0 +1,10 @@
+
+@page {
+    size: A4;
+    margin: 2.5cm;   /*Office Word standard*/
+}
+
+#signature_p{
+	margin-top:10%;
+	margin-bottom:5px;
+}

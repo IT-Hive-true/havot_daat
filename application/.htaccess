@@ -1,0 +1,7 @@
+#Header set Access-Control-Allow-Origin http://havot-daat.co.il | http://www.havot-daat.co.il
+#Header set Access-Control-Allow-Credentials: true
+php_value memory_limit 256M
+php_value upload_max_filesize 256M
+php_value post_max_size 256M
+php_value max_execution_time 300
+php_value max_input_time 1000
