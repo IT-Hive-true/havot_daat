@@ -40,6 +40,7 @@ function aws_file_get_contents($s3_file) {
 	$sdk = new Aws\Sdk($sharedConfig);
 	$s3Client = $sdk->createS3();
 
+
 	try {
 
 		$result = $s3Client->getObject([
